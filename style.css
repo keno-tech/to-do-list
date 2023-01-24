@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.update-controller {
+    display: none;
+}
+
+body {
+    border: 3px solid rgb(255, 255, 255);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+
+#date {
+    justify-content: flex-start;
+}
+
+.background {
+    background: url(todolistbg.jpg)repeat;
+}
+
+.app {
+
+}
