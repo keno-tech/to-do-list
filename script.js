@@ -12,9 +12,9 @@ function displayItems(){
     for (let i = 0; i < itemsArray.length; i++) {
         items += `<div class="item">
         <div class="input-controller">
-            <textarea disabled> ${itemsArray[i]} </textarea>
+            <textarea disabled>${itemsArray[i]}</textarea>
             <div class="edit-controller">
-                <i class="fa fa-check-square deleteBtn" aria-hidden="true"></i>
+                <i class="fa fa-trash deleteBtn" aria-hidden="true"></i>
                 <i class="fa fa-pencil editBtn" aria-hidden="true"></i>
             </div>
         </div>
